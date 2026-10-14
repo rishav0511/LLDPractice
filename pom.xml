@@ -18,6 +18,7 @@
         <module>MovieTicketBooking</module>
         <module>E-commerceRuleEngine</module>
         <module>MultiChannelNotificationSystem</module>
+        <module>ParkingLot</module>
     </modules>
 
     <dependencies>

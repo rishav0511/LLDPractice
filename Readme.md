@@ -29,7 +29,7 @@ These problems rely heavily on the **State Pattern** and **Command Pattern** to 
 
 These problems focus on the **Strategy, Decorator, and Factory Patterns** to build systems that adapt to dynamic rules.
 
-16. **Parking Lot System:** Pluggable pricing strategies (hourly, fixed, weekend surge) and assignment strategies (nearest, random).
+16. ~~**Parking Lot System:** Pluggable pricing strategies (hourly, fixed, weekend surge) and assignment strategies (nearest, random).~~
 17. **Ride-Sharing App (Uber):** Surge pricing strategies and Observer pattern for live location updates.
 18. ~~**E-commerce Rule Engine (Cart):** Stacking dynamic discounts, coupons, and tax calculations using the Decorator pattern.~~
 19. **Food Delivery App (Swiggy/Zomato):** Restaurant search, dynamic delivery fee calculation, and order tracking.
