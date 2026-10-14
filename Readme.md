@@ -31,7 +31,7 @@ These problems focus on the **Strategy, Decorator, and Factory Patterns** to bui
 
 16. **Parking Lot System:** Pluggable pricing strategies (hourly, fixed, weekend surge) and assignment strategies (nearest, random).
 17. **Ride-Sharing App (Uber):** Surge pricing strategies and Observer pattern for live location updates.
-18. **E-commerce Rule Engine (Cart):** Stacking dynamic discounts, coupons, and tax calculations using the Decorator pattern.
+18. ~~**E-commerce Rule Engine (Cart):** Stacking dynamic discounts, coupons, and tax calculations using the Decorator pattern.~~
 19. **Food Delivery App (Swiggy/Zomato):** Restaurant search, dynamic delivery fee calculation, and order tracking.
 20. **Notification System:** Routing logic to send alerts via SMS, Email, or Push based on user preferences and rate limits.
 21. **Car Rental System (Zoomcar):** Inventory management, booking overlapping dates, and calculating late fees / damage charges.

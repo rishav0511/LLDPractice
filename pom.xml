@@ -16,6 +16,7 @@
         <module>InMemoryFileSystem</module>
         <module>LoggingFramework</module>
         <module>MovieTicketBooking</module>
+        <module>E-commerceRuleEngine</module>
     </modules>
 
     <dependencies>
