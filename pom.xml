@@ -14,6 +14,7 @@
         <module>SnakeAndLadder</module>
         <module>RateLimiter</module>
         <module>InMemoryFileSystem</module>
+        <module>LoggingFramework</module>
     </modules>
 
     <dependencies>

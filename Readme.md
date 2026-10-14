@@ -52,7 +52,7 @@ These problems blend standard Data Structures and Algorithms with Object-Oriente
 
 These problems test the Open/Closed Principle—your ability to add new entities or rules without touching core logic.
 
-29. **Logging Framework (Log4j):** Chain of Responsibility for log levels (INFO, DEBUG) and strategies for log destinations (Console, File).
+29. ~~**Logging Framework (Log4j):** Chain of Responsibility for log levels (INFO, DEBUG) and strategies for log destinations (Console, File).~~
 30. **Spreadsheet Application (Excel):** Use the **Observer Pattern** to update dependent cells dynamically when a parent cell's formula changes.
 31. **Stack Overflow:** Object modeling for Questions, Answers, Comments, Tags, Upvotes, and calculating user Reputation dynamically.
 32. **Chess Game:** Complex piece validation, board state management, and move history (for checkmate detection and undo).
