@@ -33,7 +33,7 @@ These problems focus on the **Strategy, Decorator, and Factory Patterns** to bui
 17. **Ride-Sharing App (Uber):** Surge pricing strategies and Observer pattern for live location updates.
 18. ~~**E-commerce Rule Engine (Cart):** Stacking dynamic discounts, coupons, and tax calculations using the Decorator pattern.~~
 19. **Food Delivery App (Swiggy/Zomato):** Restaurant search, dynamic delivery fee calculation, and order tracking.
-20. **Notification System:** Routing logic to send alerts via SMS, Email, or Push based on user preferences and rate limits.
+20. ~~**MultiChannel NotificationSystem:** You are designing a notification service for an incident management platform (like PagerDuty). When a critical alert fires, it must be sent to the user. Some users just want an Email. Others want an Email + SMS. On-call engineers might want Email + SMS + Slack Message + Automated Voice Call.The Challenge: Users can dynamically toggle their notification preferences at runtime. You need to stack these delivery mechanisms without creating monolithic combinations (e.g., EmailAndSMSNotifier, EmailSMSAndSlackNotifier)~~
 21. **Car Rental System (Zoomcar):** Inventory management, booking overlapping dates, and calculating late fees / damage charges.
 22. **Hotel Room Booking (MakeMyTrip):** Managing room types, seasonal pricing, and handling concurrent booking attempts for the same room.
 

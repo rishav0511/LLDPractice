@@ -17,6 +17,7 @@
         <module>LoggingFramework</module>
         <module>MovieTicketBooking</module>
         <module>E-commerceRuleEngine</module>
+        <module>MultiChannelNotificationSystem</module>
     </modules>
 
     <dependencies>
