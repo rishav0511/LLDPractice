@@ -15,7 +15,7 @@ public class Main {
         System.out.println("\n--- User 2 (Email + SMS + Slack) ---");
         Notifier user2Notifier = new EmailNotifier();
         user2Notifier = new SmsNotifier(user2Notifier, "+1234567890");
-        user2Notifier = new SlackNotifier(user2Notifier, "https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX");
+        user2Notifier = new SlackNotifier(user2Notifier, "YOUR_SLACK_WEBHOOK_URL_HERE");
 
         // Calling send() once triggers the entire stacked chain
         user2Notifier.sendNotification(criticalAlert);
@@ -24,7 +24,7 @@ public class Main {
         System.out.println("\n--- User 3 (On-Call Engineer) ---");
         Notifier onCallNotifier = new EmailNotifier();
         onCallNotifier = new SmsNotifier(onCallNotifier, "+0987654321");
-        onCallNotifier = new SlackNotifier(onCallNotifier, "https://hooks.slack.com/services/T00000000/B00000000/YYYYYYYYYYYYYYYYYYYYYYYY");
+        onCallNotifier = new SlackNotifier(onCallNotifier, "YOUR_SLACK_WEBHOOK_URL_HERE");
         onCallNotifier = new VoiceCallNotifier(onCallNotifier, "+11234567890");
 
         onCallNotifier.sendNotification(criticalAlert);
