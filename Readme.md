@@ -42,7 +42,7 @@ These problems focus on the **Strategy, Decorator, and Factory Patterns** to bui
 These problems blend standard Data Structures and Algorithms with Object-Oriented Design.
 
 23. **Expense Sharing App (Splitwise):** Graph algorithms (min-cash flow) to simplify and reduce the total number of transactions between friends.
-24. **Movie Ticket Booking (BookMyShow):** Distributed seat locking (pessimistic locking) and handling concurrent payments.
+24. ~~**Movie Ticket Booking (BookMyShow):** Distributed seat locking (pessimistic locking) and handling concurrent payments.~~
 25. **Meeting Scheduler (Google Calendar):** Interval overlap algorithms to find free slots among multiple users and manage RSVPs.
 26. **Airline Ticketing System:** Managing flight schedules, seat maps, dynamic pricing based on remaining capacity, and boarding passes.
 27. **Library Management System:** Book reservations, handling max checkout limits, calculating late fees, and searching by metadata.
