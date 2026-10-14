@@ -5,7 +5,7 @@ Design a shopping cart, where various types of discount can be applied on Produc
 These problems test multi-threading, thread-safe data structures, and core CS fundamentals.
 
 1. **In-Memory Cache (LRU / LFU / TTL):** Implement O(1) `get`/`put` with custom eviction policies and thread-safe expiration.
-2. **Rate Limiter:** Implement Token Bucket, Leaky Bucket, and Sliding Window algorithms in a multi-threaded environment.
+2. ~~**Rate Limiter:** Implement Token Bucket, Leaky Bucket, and Sliding Window algorithms in a multi-threaded environment.~~
 3. **Task Scheduler / Job Queue:** Design a custom thread pool to handle immediate, delayed, and recurring (CRON) jobs.
 4. **Message Queue (Pub/Sub):** Design a Kafka-like system handling topics, partitions, publishers, and consumer offsets.
 5. **In-Memory Key-Value Store with Transactions:** Implement `begin()`, `commit()`, and `rollback()` supporting nested transactions and isolation levels.

@@ -15,6 +15,7 @@
         <module>RateLimiter</module>
         <module>InMemoryFileSystem</module>
         <module>LoggingFramework</module>
+        <module>MovieTicketBooking</module>
     </modules>
 
     <dependencies>
