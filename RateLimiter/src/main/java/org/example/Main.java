@@ -1,17 +1,22 @@
 package org.example;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        RateLimiterService service = new RateLimiterService();
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+        service.registerUser("user_1", "fixed", 5, 10);
+        service.registerUser("user_2", "sliding", 3, 5);
+        service.registerUser("user_3", "token-bucket", 5, 10);
+        service.registerUser("user_4", "leaky-bucket", 3, 4);
+
+        for (int i = 0; i < 7; i++) {
+            System.out.println("User 1 Request " + (i + 1) + " : " + service.allowRequest("user_1"));
+            System.out.println("User 2 Request " + (i + 1) + " : " + service.allowRequest("user_2"));
+            System.out.println("User 3 Request " + (i + 1) + " : " + service.allowRequest("user_3"));
+            System.out.println("User 4 Request " + (i + 1) + " : " + service.allowRequest("user_4"));
+            Thread.sleep(1000);
         }
     }
 }
