@@ -18,7 +18,7 @@ These problems test multi-threading, thread-safe data structures, and core CS fu
 
 These problems rely heavily on the **State Pattern** and **Command Pattern** to manage complex transitions without nested `if/else` blocks.
 
-10. **Vending Machine:** Manage states (Idle, HasMoney, Dispensing) and calculate minimum change using a greedy approach.
+10. ~~**Vending Machine:** Manage states (Idle, HasMoney, Dispensing) and calculate minimum change using a greedy approach.~~
 11. **ATM System:** Handle card authentication, cash dispensing via Chain of Responsibility, and transaction rollbacks.
 12. **Elevator System:** Optimize wait times using SCAN/Look algorithms and coordinate multiple elevator cars.
 13. **Music Player (Spotify):** Manage player states (Playing, Paused, Stopped) and queue logic (Shuffle, Repeat One, Repeat All).
@@ -41,7 +41,7 @@ These problems focus on the **Strategy, Decorator, and Factory Patterns** to bui
 
 These problems blend standard Data Structures and Algorithms with Object-Oriented Design.
 
-23. **Expense Sharing App (Splitwise):** Graph algorithms (min-cash flow) to simplify and reduce the total number of transactions between friends.
+23. ~~**Expense Sharing App (Splitwise):** Graph algorithms (min-cash flow) to simplify and reduce the total number of transactions between friends.~~
 24. ~~**Movie Ticket Booking (BookMyShow):** Distributed seat locking (pessimistic locking) and handling concurrent payments.~~
 25. **Meeting Scheduler (Google Calendar):** Interval overlap algorithms to find free slots among multiple users and manage RSVPs.
 26. **Airline Ticketing System:** Managing flight schedules, seat maps, dynamic pricing based on remaining capacity, and boarding passes.

@@ -19,6 +19,8 @@
         <module>E-commerceRuleEngine</module>
         <module>MultiChannelNotificationSystem</module>
         <module>ParkingLot</module>
+        <module>VendingMachine</module>
+        <module>Splitwise</module>
     </modules>
 
     <dependencies>
