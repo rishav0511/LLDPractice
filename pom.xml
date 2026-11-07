@@ -21,6 +21,7 @@
         <module>ParkingLot</module>
         <module>VendingMachine</module>
         <module>Splitwise</module>
+        <module>MusicPlayer</module>
     </modules>
 
     <dependencies>
