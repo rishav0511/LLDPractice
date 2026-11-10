@@ -23,4 +23,7 @@ public class Main {
         System.out.println("Total Cart Price: $" + cart.calculateCartTotal());
         // Expected: (2000 - 200) + (100 - 10) = 1800 + 90 = $1890.00
     }
+
+    public static class ATMSystem {
+    }
 }

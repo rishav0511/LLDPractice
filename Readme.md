@@ -19,9 +19,9 @@ These problems test multi-threading, thread-safe data structures, and core CS fu
 These problems rely heavily on the **State Pattern** and **Command Pattern** to manage complex transitions without nested `if/else` blocks.
 
 10. ~~**Vending Machine:** Manage states (Idle, HasMoney, Dispensing) and calculate minimum change using a greedy approach.~~
-11. **ATM System:** Handle card authentication, cash dispensing via Chain of Responsibility, and transaction rollbacks.
+11. ~~**ATM System:** Handle card authentication, cash dispensing via Chain of Responsibility, and transaction rollbacks.~~
 12. **Elevator System:** Optimize wait times using SCAN/Look algorithms and coordinate multiple elevator cars.
-13. **Music Player (Spotify):** Manage player states (Playing, Paused, Stopped) and queue logic (Shuffle, Repeat One, Repeat All).
+13. ~~**Music Player (Spotify):** Manage player states (Playing, Paused, Stopped) and queue logic (Shuffle, Repeat One, Repeat All).~~
 14. **Text Editor (Undo/Redo):** Use the **Command** and **Memento** patterns to apply text changes, revert them, and maintain history.
 15. **Order Fulfillment System (Amazon Logistics):** Track a package through strict states (Ordered, Packed, Shipped, Out for Delivery, Delivered) handling exceptions (Lost, Returned).
 
